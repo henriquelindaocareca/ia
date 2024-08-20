@@ -6,41 +6,46 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado = "É responsável dar comida típica para animais em adoção?",
-        Alternativas: [
+        enunciado: "É responsável dar comida típica para animais em adoção?",
+        alternativas: [
             {
-                texto: "Sim",
-                afirmação: "Faz com que o animal não passe fome."
+                texto: "Sim!",
+                afirmacao: "Porque pode diminuir a quantidade de animais passando fome."
             },
             {
-                texto: "Não",
-                afirmação: "Faz mal ao animal e pode levar o mesmo à óbito."
+                texto: "Não!",
+                afirmacao: "Porque faz mal."
             }
         ]
     },
     {
-        enunciado = "Como o acompanhamento veterinário pode influenciar a saúde dos animais em desfiles culturais e como a coleta seletiva ajuda para a sustentabilidade desses eventos?",
-        Alternativas: [
+        enunciado: "Como o acompanhamento veterinário pode influenciar a saúde dos animais em desfiles culturais e como a coleta seletiva ajuda para a sustentabilidade desses eventos?",
+        alternativas: [
             {
-                texto: "Pode ajudar",
-                afirmação: "afirmação"
-            }
-        ]
-    }
-] 
-    {
-        enunciado = "É responsável praticar esportes com roupas indígenas?",
-        Alternativas: [
-            {
-                texto: "Sim",
-                afirmação: "Incentiva a cultura.."
+                texto: "Sim!",
+                afirmacao: "Porque diminui a quantidade de gente doente."
             },
             {
-                texto: "Não",
-                afirmação: "É preconceituoso.."
+                texto: "Não!",
+                afirmacao: "Porque pode ser mal utilizado pelos usuários."
             }
         ]
-    }
+    },
+    {
+        enunciado: "É responsável praticar esportes com roupas indígenas?",
+        alternativas: [
+            {
+                texto: "Sim!",
+                afirmacao: "Incentiva a cultura."
+            },
+            {
+                texto: "Não!",
+                afirmacao: "É preconceituoso."
+            }
+        ]
+    },
+];
+
 
 let atual = 0;
 let perguntaAtual;
